@@ -1,0 +1,94 @@
+:root {
+  --accent: #2e7d32;
+  --muted: #666;
+  --card-bg: #fff;
+  --bg: #f6f8fa;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: system-ui, Segoe UI, Roboto, Arial;
+  margin: 0;
+  background: var(--bg);
+  color: #111;
+}
+.container {
+  max-width: 760px;
+  margin: 18px auto;
+  padding: 12px;
+}
+h1 {
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 12px;
+}
+.card {
+  background: var(--card-bg);
+  padding: 12px;
+  border-radius: 10px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.06);
+  margin-bottom: 12px;
+}
+label {
+  display: block;
+  margin-top: 8px;
+  font-size: 13px;
+  color: var(--muted);
+}
+input,
+select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 6px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+}
+.btn {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 12px;
+  background: var(--accent);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+}
+#results {
+  margin-top: 12px;
+}
+.job-card {
+  background: #fff;
+  padding: 12px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
+}
+.job-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.job-title {
+  font-weight: 700;
+}
+.meta {
+  font-size: 13px;
+  color: var(--muted);
+  margin-top: 6px;
+}
+.breakdown {
+  margin-top: 8px;
+  font-size: 13px;
+  color: #333;
+}
+.small {
+  font-size: 12px;
+  color: var(--muted);
+}
+@media (min-width: 700px) {
+  .container {
+    padding: 20px;
+  }
+}

@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>PM Internship Recommender</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="container">
+    <h1>PM Internship Recommender</h1>
+
+    <form id="profileForm" class="card">
+      <label>Skills (comma-separated)</label>
+      <input id="skillsInput" placeholder="e.g. Python, Machine Learning" />
+
+      <label>Sector</label>
+      <select id="sectorSelect"><option value="">Any</option></select>
+
+      <label>Location</label>
+      <select id="locationSelect"><option value="">Any</option></select>
+
+      <label>Education</label>
+      <select id="educationSelect"><option value="">Any</option></select>
+
+      <button type="submit" class="btn">Find Best Internships</button>
+    </form>
+
+    <section id="results"></section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

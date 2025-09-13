@@ -1,0 +1,62 @@
+[
+  {
+    "title": "Web Development Intern",
+    "company": "TechCorp",
+    "skills_required": ["HTML", "CSS", "JavaScript", "React"],
+    "sector": "Software Development",
+    "location": "Bangalore",
+    "education_required": "B.Tech",
+    "applyLink": "https://pmportal.gov.in/apply/web-dev-101",
+    "postDate": "2025-09-01"
+  },
+  {
+    "title": "Data Science Intern",
+    "company": "DataLabs",
+    "skills_required": ["Python", "Pandas", "Machine Learning"],
+    "sector": "Data Science",
+    "location": "Delhi",
+    "education_required": "B.Tech",
+    "applyLink": "https://pmportal.gov.in/apply/data-sci-102",
+    "postDate": "2025-08-28"
+  },
+  {
+    "title": "Marketing Intern",
+    "company": "GrowthX",
+    "skills_required": ["Communication", "SEO", "Content Writing"],
+    "sector": "Marketing",
+    "location": "Remote",
+    "education_required": "Any Graduate",
+    "applyLink": "https://pmportal.gov.in/apply/marketing-103",
+    "postDate": "2025-08-30"
+  },
+  {
+    "title": "Rural Development Intern",
+    "company": "Grameen Foundation",
+    "skills_required": ["Community Engagement", "Report Writing", "MS Office"],
+    "sector": "Rural Development",
+    "location": "Lucknow",
+    "education_required": "Any Graduate",
+    "applyLink": "https://pmportal.gov.in/apply/rural-dev-104",
+    "postDate": "2025-08-25"
+  },
+  {
+    "title": "Digital Literacy Intern",
+    "company": "Digital India NGO",
+    "skills_required": ["Basic Computer Skills", "Communication", "Training Delivery"],
+    "sector": "Digital Education",
+    "location": "Jaipur",
+    "education_required": "Any Graduate",
+    "applyLink": "https://pmportal.gov.in/apply/digital-literacy-105",
+    "postDate": "2025-09-02"
+  },
+  {
+    "title": "Environmental Awareness Intern",
+    "company": "EcoFuture",
+    "skills_required": ["Research", "Public Speaking", "Social Media"],
+    "sector": "Environment",
+    "location": "Remote",
+    "education_required": "Any Graduate",
+    "applyLink": "https://pmportal.gov.in/apply/environment-106",
+    "postDate": "2025-08-27"
+  }
+]
