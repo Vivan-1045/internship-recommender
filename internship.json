@@ -58,5 +58,93 @@
     "education_required": "Any Graduate",
     "applyLink": "https://pmportal.gov.in/apply/environment-106",
     "postDate": "2025-08-27"
-  }
+  },
+  {
+  "title": "Power BI Data Analyst Intern",
+  "company": "Henry Harvin",
+  "skills_required": [
+    "Power BI","Data Visualization","Dashboard Creation","Data Integration","Data Modeling","Trend Analysis","Performance Metrics","Reporting",
+    "Data Presentation" ],
+  "sector": "IT-ITeS",
+  "location": "Online",
+  "education_required": "10th, 12th, Graduation, Post-Graduation",
+  "applyLink": "https://unstop.com/internships/power-bi-data-analyst-intern-henry-harvin",
+  "postDate": "2025-09-15"
+},
+  {
+  "title": "AI-powered Smart Inventory Management System Developer",
+  "company": "TutorialsPoint",
+  "skills_required": [
+    "Python","TensorFlow","Flask","REST APIs","Machine Learning","AI Algorithms","Data Analysis","Inventory Management Systems",
+    "Predictive Analytics",
+    "System Design"
+  ],
+  "sector": "IT-ITeS",
+  "location": "Online",
+  "education_required": "Post Graduation, Graduation",
+  "applyLink": "https://unstop.com/internships/ai-inventory-management-system-tutorialspoint",
+  "postDate": "2025-09-15"
+},
+  {
+  "title": "AI Full Stack Developer Intern",
+  "company": "Neuramach.AI",
+  "skills_required": [
+    "React",
+    "Next.js",
+    "Python",
+    "Node.js",
+    "Machine Learning",
+    "Data Pipelines",
+    "API Development",
+    "Git",
+    "SQL",
+    "NoSQL",
+    "Cloud Deployment",
+    "CI/CD"
+  ],
+  "sector": "Artificial Intelligence/Technology",
+  "location": "Pune",
+  "education_required": "No specific educational background required",
+  "applyLink": "https://unstop.com/internships/ai-full-stack-developer-intern-neuramach-ai",
+  "postDate": "2025-09-11"
+},
+  {
+  "title": "Mobile / App Development Intern",
+  "company": "Agrofix Technologies Private Limited",
+  "skills_required": [
+    "React Native","Java","Android Development",
+    "SQL Databases", "RESTful APIs", "JSON", "Problem Solving"],
+  "sector": "Technology/Mobile Development",
+  "location": "Work From Home",
+  "education_required": "Students from all educational backgrounds",
+  "applyLink": "https://unstop.com/internships/mobile-app-development-intern-agrofix-technologies",
+  "postDate": "2025-09-12"
+},
+  {
+  "title": "Graphic Designer",
+  "company": "yashar.dev",
+  "skills_required": [
+    "Adobe Creative Suite","Photoshop", "Illustrator", "InDesign","Canva","Design Principles","Typography","Branding Awareness","Visual Hierarchy",
+    "Attention to Detail",
+    "Creativity",
+    "Basic Animation",
+    "Prototyping Tools"
+  ],
+  "sector": "Information Technology & Services",
+  "location": "Work from home",
+  "education_required": "Bachelor's degree in Graphic Design, Visual Arts or related field (or equivalent experience)",
+  "applyLink": "https://boostgrad.com/job/graphic-designers-jid140970",
+  "postDate": "2025-09-13"
+},
+  {
+  "title": "Digital Marketing Intern",
+  "company": "Graphicodx IT Consultancy",
+  "skills_required": [
+    "Content Writing", "Social Media Marketing", "SEO Basics", "Email Marketing", "Google Analytics", "Digital Marketing", "Basic Design Skills"],
+  "sector": "Information Technology & Services, Market Research, Marketing & Advertising",
+  "location": "Work from home",
+  "education_required": "Currently pursuing or recently completed degree in Marketing, Communications, Business or related field",
+  "applyLink": "https://boostgrad.com/job/digital-marketing-intern-jid140589",
+  "postDate": "2025-09-12"
+}
 ]
