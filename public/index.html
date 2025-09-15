@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width,initial-scale=1"/>
   <title>PM Internship Recommender</title>
   <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@yaireo/tagify/dist/tagify.css">
+  <script src="https://cdn.jsdelivr.net/npm/@yaireo/tagify"></script>
 </head>
 <body>
   <main class="container">
@@ -12,16 +14,19 @@
 
     <form id="profileForm" class="card">
       <label>Skills (comma-separated)</label>
-      <input id="skillsInput" placeholder="e.g. Python, Machine Learning" />
+      <input id="skillsInput" placeholder="Add skills..." />
 
       <label>Sector</label>
-      <select id="sectorSelect"><option value="">Any</option></select>
+      <input list="sectorOptions" id="sectorSelect" placeholder="Any sector" />
+      <datalist id="sectorOptions"></datalist>
 
       <label>Location</label>
-      <select id="locationSelect"><option value="">Any</option></select>
+      <input list="locationOptions" id="locationSelect" placeholder="Any location" />
+      <datalist id="locationOptions"></datalist>
 
       <label>Education</label>
-      <select id="educationSelect"><option value="">Any</option></select>
+      <input list="educationOptions" id="educationSelect" placeholder="Any education level" />
+      <datalist id="educationOptions"></datalist>
 
       <button type="submit" class="btn">Find Best Internships</button>
     </form>
@@ -32,3 +37,4 @@
   <script src="app.js"></script>
 </body>
 </html>
+

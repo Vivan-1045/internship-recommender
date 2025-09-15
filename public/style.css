@@ -87,6 +87,23 @@ select {
   font-size: 12px;
   color: var(--muted);
 }
+
+.tagify {
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 8px 8px;
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 2px;
+  box-sizing: border-box;
+  background-color: white;
+}
+
+.tagify__input {
+  padding: 0 !important; 
+  margin: 0;
+}
 @media (min-width: 700px) {
   .container {
     padding: 20px;

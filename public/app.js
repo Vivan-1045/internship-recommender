@@ -6,35 +6,59 @@ document.addEventListener("DOMContentLoaded", () => {
   const results = document.getElementById("results");
   const skillsInput = document.getElementById("skillsInput");
 
-  // Load meta options dynamically
-  fetch("/meta").then(r => r.json()).then(data => {
-    (data.sectors || []).forEach(s => {
-      const opt = document.createElement("option");
-      opt.value = s;
-      opt.textContent = s;
-      sectorSelect.appendChild(opt);
-    });
-    (data.locations || []).forEach(l => {
-      const opt = document.createElement("option");
-      opt.value = l;
-      opt.textContent = l;
-      locationSelect.appendChild(opt);
-    });
-    (data.educations || []).forEach(e => {
-      const opt = document.createElement("option");
-      opt.value = e;
-      opt.textContent = e;
-      educationSelect.appendChild(opt);
-    });
+  const tagify = new Tagify(skillsInput, {
+    whitelist: [],       
+    dropdown: {
+      enabled: 1,        
+      maxItems: 20,      
+      classname: "tags-look",
+      fuzzySearch: true,
+      position: 'all',
+      caseSensitive: false,
+    }
   });
+
+  // Get references to <datalist> elements
+  const sectorOptions = document.getElementById("sectorOptions");
+  const locationOptions = document.getElementById("locationOptions");
+  const educationOptions = document.getElementById("educationOptions");
+
+  // Load meta options dynamically into datalists
+  fetch("/meta")
+    .then(r => r.json())
+    .then(data => {
+      (data.sectors || []).forEach(s => {
+        const opt = document.createElement("option");
+        opt.value = s;
+        sectorOptions.appendChild(opt);
+      });
+
+      (data.locations || []).forEach(l => {
+        const opt = document.createElement("option");
+        opt.value = l;
+        locationOptions.appendChild(opt);
+      });
+
+      (data.educations || []).forEach(e => {
+        const opt = document.createElement("option");
+        opt.value = e;
+        educationOptions.appendChild(opt);
+      });
+       
+      if (data.skills && Array.isArray(data.skills)) {
+        tagify.settings.whitelist = data.skills;
+      }
+
+    });
 
   // Handle form submit
   form.addEventListener("submit", e => {
     e.preventDefault();
     results.innerHTML = "<div class='card small'>Finding matches…</div>";
 
-    const skillsRaw = skillsInput.value || "";
-    const skills = skillsRaw.split(",").map(s => s.trim()).filter(Boolean);
+    // const skillsRaw = skillsInput.value || "";
+    // const skills = skillsRaw.split(",").map(s => s.trim()).filter(Boolean);
+    const skills = tagify.value.map(tag => tag.value).filter(Boolean);
 
     const payload = {
       skills,
