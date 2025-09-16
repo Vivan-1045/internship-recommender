@@ -383,4 +383,144 @@
     "Entrepreneurship"
   ]
 }
+{
+  "company": {
+    "name": "PreludeSys",
+    "industry": "IT Services & Consulting",
+    "type": "Private",
+    "ownership": "Foreign MNC",
+    "business_model": "B2B",
+    "followers": "1.4K",
+    "rating": "3.3",
+    "reviews": 282
+  },
+  "overview": {
+    "departments_hiring": {
+      "Engineering - Software & QA": 4,
+      "IT & Information Security": 3,
+      "Other": 3,
+      "Data Science & Analytics": 2,
+      "Consulting": 1
+    },
+    "total_job_openings": 13
+  },
+  "jobs": [
+    {
+      "title": "Sales Executive",
+      "company": "PreludeSys",
+      "location": "Chennai (Adyar)",
+      "mode": "Work From Home",
+      "experience_required": "1-3 Years",
+      "salary": "2-2.5 Lacs PA",
+      "posted_days_ago": 18,
+      "applyLink": "https://www.naukri.com/job-listings-sales-executives-preludesys-chennai-1-to-3-years-280825020710?src=companyPageJobsDesk&sid=17579939051341207&xp=1&px=1",
+      "preferences": "Female Candidates Preferred",
+      "key_responsibilities": [
+        "Make 100+ outbound calls daily"
+      ],
+      "skills_required": [
+        "Fluent English",
+        "Hindi Speaking",
+        "Outbound Calling",
+        "Sales"
+      ]
+    }
+  ]
+},
+{
+  "job": {
+    "title": "Fresher",
+    "company": "Cognizant",
+    "rating": 3.7,
+    "reviews": 56544,
+    "location": "Chennai",
+    "experience_required": "0 years",
+    "salary": "50,000 - 2 Lacs P.A.",
+    "posted_days_ago": 5,
+    "applyLink":"https://www.naukri.com/job-listings-fresher-cognizant-chennai-0-to-0-years-100925012531?src=companyPageJobsDesk&sid=1757994339424356&xp=1&px=1",
+    "openings": 1,
+    "applicants": "100+",
+    "application_methods": [
+      "Register to apply",
+      "Login to apply"
+    ]
+  }
+},
+{
+  "job": {
+    "title": "Cognizant Hiring Freshers - Hyderabad",
+    "company": "Cognizant",
+    "rating": 3.7,
+    "reviews": 56544,
+    "experience_required": "0 years",
+    "salary": "Not Disclosed",
+    "location": "Hyderabad",
+    "walk_in_details": {
+      "dates": "16th September - 18th September",
+      "time": "9:30 AM - 12:00 PM",
+      "venue": "Cognizant office, GAR Infobahn Tower 5, Ground Floor, Recruitment Bay, GAR Tower, Shanthinagar Rd, Kokapet, Hyderabad, Telangana 500075",
+      "contact_person": "Koojitha"
+    },
+    "posted_days_ago": 1,
+    "applyLink": "https://www.naukri.com/job-listings-cognizant-hiring-freshers-hyderabad-cognizant-hyderabad-0-to-0-years-150925013403?src=companyPageJobsDesk&sid=1757994339424356&xp=2&px=1",
+    "openings": 20,
+    "applicants": "100+",
+    "application_methods": [
+      "Register to apply",
+      "Login to apply"
+    ]
+  }
+},
+{
+  "job": {
+    "title": "Fresher Mapping Role",
+    "company": "Cognizant",
+    "rating": 3.7,
+    "reviews": 56544,
+    "experience_required": "0 - 1 years",
+    "salary": "Not Disclosed",
+    "location": "Hyderabad",
+    "posted_days_ago": 2,
+    "applyLink":"https://www.naukri.com/job-listings-fresher-mapping-role-cognizant-hyderabad-0-to-1-years-130925005167?src=companyPageJobsDesk&sid=1757994339424356&xp=3&px=1",
+    "openings": 50,
+    "applicants": "100+",
+    "application_methods": [
+      "Register to apply",
+      "Login to apply"
+    ]
+  }
+},
+{
+  "job_title": "Site Store Manager",
+  "company_name": "Reliance Industries (RIL)",
+  "company_rating": 4.018341,
+  "location": "Beed, Maharashtra",
+  "experience_required": "3 - 8 years",
+  "salary": "Not Disclosed",
+  "job_posted": "1 week ago",
+  "applyLink": "https://www.naukri.com/job-listings-site-store-manager-reliance-industries-beed-maharashtra-reliance-industries-ril-beed-3-to-8-years-020925012109?src=companyPageJobsDesk&sid=17579946918359554&xp=1&px=1",
+  "openings": 1,
+  "applicants": "100+",
+  "application": {
+    "register_to_apply": true,
+    "login_to_apply": true
+  }
+},
+{
+  "job_title": "Construction Manager",
+  "company_name": "Reliance Industries (RIL)",
+  "company_rating": 4.018341,
+  "location": ["Solapur", "Aurangabad"],
+  "experience_required": "10 - 20 years",
+  "salary": "8.5 - 18.5 Lacs P.A.",
+  "job_posted": "6 days ago",
+  "applyLink": "https://www.naukri.com/job-listings-construction-manager-reliance-industries-ril-solapur-aurangabad-10-to-20-years-090925021936?src=companyPageJobsDesk&sid=17579946918359554&xp=2&px=1",
+  "openings": 1,
+  "applicants": "100+",
+  "application": {
+    "register_to_apply": true,
+    "login_to_apply": true
+  }
+}
+
 ]
