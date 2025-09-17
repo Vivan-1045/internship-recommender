@@ -276,5 +276,126 @@
   "location": "Work from home",
   "education_required": "Relevant background in Environmental Science or Biotechnology",
   "applyLink": "https://internshala.com/internship/detail/work-from-home-researcher-environmental-science-biotechnology-internship-at-nan-kum1757657700",
+},
+  {
+  "title": "Graphic Design Intern",
+  "company": "Wtvision Solutions Private Limited",
+  "skills_required": [
+    "Adobe Illustrator",
+    "Adobe InDesign",
+    "Adobe Photoshop",
+    "Canva",
+    "Figma",
+    "Typography",
+    "Color Theory",
+    "Layout Design"
+  ],
+  "sector": "Design & Creative Services",
+  "location": "Delhi, Ghaziabad, Greater Noida, Noida",
+  "education_required": "Degree in Graphic Design, Visual Arts or related field",
+  "applyLink": "https://unstop.com/internships/graphic-design-intern-wtvision-solutions",
+  "postDate": "2025-09-11",
+},
+  {
+  "title": "Digital Marketing Intern",
+  "company": "Accountant AI",
+  "skills_required": [
+    "Digital Marketing",
+    "Social Media Marketing",
+    "Facebook Marketing",
+    "Creative Writing",
+    "English Proficiency (Spoken)",
+    "Content Creation",
+    "Market Research",
+    "Analytics"
+  ],
+  "sector": "Artificial Intelligence/Accounting Technology",
+  "location": "Delhi, Greater Noida, Noida",
+  "education_required": "Relevant skills and interests in Digital Marketing",
+  "applyLink": "https://internshala.com/internship/detail/digital-marketing-internship-in-multiple-locations-at-accountant-ai1758095197i",
+  "postDate": "2025-09-16",
+
+},
+  {
+  "title": "Video Editor & Creative Designer Intern",
+  "company": "Probey Services Private Limited",
+  "skills_required": [
+    "Video Editing",
+    "Adobe Premiere Pro",
+    "After Effects",
+    "Final Cut Pro",
+    "Adobe Photoshop",
+    "Adobe Illustrator",
+    "Canva",
+    "Graphic Design",
+    "Motion Graphics",
+    "Logo Design",
+    "Banner Design",
+    "Videography"
+  ],
+  "sector": "Creative Services/Media",
+  "location": "Delhi, Greater Noida, Noida, Ghaziabad",
+  "education_required": "Relevant skills in Video Editing and Graphic Design",
+  "applyLink": "https://internshala.com/internship/detail/video-editing-making-internship-in-multiple-locations-at-probey-services-private-limited1758092257",
+ 
+},
+  {
+  "title": "Junior Software Developer Intern",
+  "company": "Voizer.ai",
+  "skills_required": [
+    "Python",
+    "Django",
+    "Golang",
+    "CRM Systems",
+    "Automation Tools",
+    "Workflow Integration",
+    "Data Management",
+    "Problem Solving"
+  ],
+  "sector": "AI/Software Development",
+  "location": "Delhi",
+  "education_required": "Computer Science or related field (students or recent graduates)",
+  "applyLink": "https://internshala.com/internship/detail/junior-software-developer-internship-in-delhi-at-voizerai1758111501",
+
+},
+  {
+  "id": 7,
+  "title": "Business Development (Sales) Intern",
+  "company": "Swifter Multicorps Pvt Ltd",
+  "skills_required": [
+    "Effective Communication",
+    "English Proficiency (Spoken)",
+    "English Proficiency (Written)",
+    "MS-Excel",
+    "Social Media Marketing",
+    "Lead Generation",
+    "Sales Conversion",
+    "Customer Relationship Management",
+    "Administrative Coordination"
+  ],
+  "sector": "Business Development/Sales",
+  "location": "Delhi (Hybrid)",
+  "education_required": "Relevant skills and interests in Sales and Business Development",
+  "applyLink": "https://internshala.com/internship/detail/part-time-business-development-sales-internship-in-delhi-at-swifter-multicorps-pvt-ltd1757958340",
+ 
+},
+  {
+ 
+  "title": "Generative AI Video Editor Intern",
+  "company": "Prolegion Private Limited",
+  "skills_required": [
+    "Adobe Premiere Pro",
+    "DaVinci Resolve",
+    "Generative AI Development",
+    "Video Editing",
+    "AI Tools (Adobe Firefly, HeyGen)",
+    "Storytelling",
+    "Prompt Engineering"
+  ],
+  "sector": "SaaS/Technology",
+  "location": "Noida",
+  "education_required": "Bachelor's degree (completed or in progress) in relevant field",
+  "applyLink": "https://internshala.com/internship/detail/generative-ai-video-editor-internship-in-noida-at-prolegion-private-limited1758083206",
+ 
 }
 ]
