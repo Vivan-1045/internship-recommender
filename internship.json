@@ -382,7 +382,67 @@
     "Business Plan",
     "Entrepreneurship"
   ]
-}
+},
+  {
+  "title": "Full Stack Development Intern",
+  "company": "FlocCare",
+  "skills_required": [
+    "Python",  "JavaScript",  "HTML",  "CSS", "MySQL", "MongoDB", "Amazon Web Services (AWS)","Bootstrap","Redis", "pandas",
+    "Bitbucket",
+    "DevOps"
+  ],
+  "sector": "Healthcare Technology",
+  "location": "Mangalore",
+  "education_required": "Relevant skills and interests (specific degree not specified)",
+  "applyLink": "https://internshala.com/internship/detail/full-stack-development-internship-in-mangalore-at-floccare1755926831",
+  "postDate": "2025-08-25"
+},
+  {
+  "title": "Cloud Computing Intern",
+  "company": "Emoolar Technology Private Limited",
+  "skills_required": [
+    "Amazon Web Services (AWS)", "Google Cloud Platform (GCP)","Microsoft Azure","Cloud Computing","Cloud Infrastructure", "Cloud Solutions Development"
+  ],
+  "sector": "IT Services & Cloud Computing",
+  "location": "Work from home",
+  "education_required": "Relevant skills and interests in Cloud Computing",
+  "applyLink": "https://internshala.com/internship/detail/work-from-home-part-time-cloud-computing-internship-at-emoolar-technology-private-limited1755928763",
+  "postDate": "2025-08-23"
+},
+  {
+  "title": "DevOps-Oriented Full-Stack Engineer Intern",
+  "company": "CodeIncubate",
+  "skills_required": [
+    "Amazon Web Services (AWS)",
+    "Docker", "Kubernetes","Terraform","NestJS","FastAPI","Node.js","Python","PostgreSQL",
+    "Redis", "GraphQL","Flutter","Grafana", "Prometheus", "CI/CD", "Cloud Infrastructure", "DevOps",
+    "API Development",
+    "Containerization",
+    "Monitoring Tools"
+  ],
+  "sector": "AI & Software Engineering",
+  "location": "Gurgaon",
+  "education_required": "Relevant skills and interests in DevOps and Full-Stack Development",
+  "applyLink": "https://unstop.com/internships/devops-full-stack-engineer-intern-codeincubate",
+  "postDate": "2025-08-27"
+},
+  {
+  "title": "AWS DevOps Engineer Intern",
+  "company": "Anshumat Foundation",
+  "skills_required": [
+    "Amazon Web Services (AWS)",
+    "Linux Administration",
+    "Docker", "Kubernetes", "CI/CD","Python","GitHub","Jenkins","PostgreSQL", "Database Management","Nginx/Apache", "Terraform", "Ansible",
+    "Cloud Infrastructure",
+    "System Design",
+    "Security Tools"
+  ],
+  "sector": "NGO",
+  "location": "Bangalore (Hybrid)",
+  "education_required": "Pursuing Computer Science, IT or related fields",
+  "applyLink": "https://internshala.com/internship/detail/aws-devops-engineer-internship-in-bangalore-at-anshumat-foundation1757308222",
+  "postDate": "2025-09-07"
+},
 {
   "company": {
     "name": "PreludeSys",
@@ -521,6 +581,245 @@
     "register_to_apply": true,
     "login_to_apply": true
   }
+},
+{
+  "title": "Executive Assistant",
+  "company": "Myntra",
+  "skills_required": [
+    "Organizational and time-management abilities",
+    "Written and verbal communication",
+    "Microsoft Office Suite (Excel, PowerPoint, Word)",
+    "Confidentiality and discretion",
+    "Attention to detail",
+    "Problem-solving"
+  ],
+  "sector": "Technology, Information and Internet",
+  "location": "Bengaluru, Karnataka, India",
+  "education_required": "Bachelor’s or Master’s degree",
+  "applyLink": "https://www.myntra.com/careers",  
+  "postDate": "2025-09-16"
+},
+{
+  "title": "Guest Coordinator - CNBC TV18",
+  "company": "Network18 Media & Investments Limited",
+  "skills_required": [
+    "Business news awareness",
+    "Guest coordination",
+    "Ability to identify key policy and business decision-makers",
+    "Handling international guests",
+    "News spotting and breaking",
+    "Media background"
+  ],
+  "sector": "Media Production, Public Relations and Communications Services, Broadcast Media Production and Distribution",
+  "location": "Mumbai, Maharashtra, India",
+  "education_required": "Not specified (Media background preferred)",
+  "applyLink": "https://www.cnbctv18.com/",
+  "postDate": "2025-09-16"
+},
+{
+  "title": "Buying Executive",
+  "company": "FirstCry.com (BrainBees Solutions Ltd.)",
+  "skills_required": [
+    "Production and sampling record management",
+    "Vendor communication and management",
+    "Purchase order creation",
+    "Sourcing and indenting",
+    "Style and fashion trend analysis",
+    "Material status tracking",
+    "Costing and order closure",
+    "Follow-up on submissions and shipments",
+    "Quality parameter and testing knowledge",
+    "Strong communication",
+    "Vendor development",
+    "Willingness to travel"
+  ],
+  "sector": "Retail and Internet Marketplace Platforms",
+  "location": "Pune, Maharashtra, India",
+  "education_required": "Not specified",
+  "applyLink": "https://www.firstcry.com/",
+  "postDate": "2025-09-16"
+},
+{
+  "title": "Area Sales Executive",
+  "company": "Britannia Industries Limited",
+  "skills_required": [
+    "FMCG sales experience",
+    "Team handling and people management",
+    "Knowledge of SAP environment",
+    "Objective setting and business planning",
+    "Customer and vendor management",
+    "Stock freshness and norm management",
+    "Trade marketing execution",
+    "Consumer promotions and product launches",
+    "Merchandising and visibility implementation",
+    "Training and development for sales teams",
+    "Market benchmarking and best practices",
+    "Commercial control and systems adherence"
+  ],
+  "sector": "Manufacturing",
+  "location": "Ahmedabad, Gujarat, India",
+  "education_required": "Any graduate (MBA desirable)",
+  "applyLink": "https://www.britannia.co.in/careers",
+  "postDate": "2025-09-16",
+  "experience_required": "5-6 years in GT Sales Field operations in FMCG industry"
+},
+{
+  "title": "Guest Coordinator - CNBC TV18",
+  "company": "Network18 Media & Investments Limited",
+  "skills_required": [
+    "Business news awareness",
+    "Guest coordination",
+    "Ability to identify key policy and business decision-makers",
+    "Handling international guests",
+    "News spotting and breaking",
+    "Media background"
+  ],
+  "sector": "Media Production, Public Relations and Communications Services, Broadcast Media Production and Distribution",
+  "location": "Mumbai, Maharashtra, India",
+  "education_required": "Not specified (Media background preferred)",
+  "applyLink": "https://www.cnbctv18.com/",
+  "postDate": "2025-09-16",
+  "experience_required": "Experience in news media, chamber of commerce, or roles involving interaction with business and policy leaders"
+},
+{
+  "title": "Early in Profession Recruiter",
+  "company": "Microsoft",
+  "skills_required": [
+    "Talent acquisition and recruiting",
+    "University and early-career hiring",
+    "Engineering/technical recruitment knowledge",
+    "Market analysis and sourcing strategy",
+    "Candidate assessment and screening",
+    "Operational compliance and documentation",
+    "Stakeholder and client engagement",
+    "Program and event management",
+    "Data-driven recruiting and insights",
+    "Community outreach and candidate attraction"
+  ],
+  "sector": "Software Development",
+  "location": "Bengaluru, Karnataka, India",
+  "education_required": "Bachelor's Degree (Master’s preferred) OR equivalent experience",
+  "applyLink": "https://careers.microsoft.com/",
+  "postDate": "2025-09-16",
+  "experience_required": "4+ years in talent acquisition (8+ years preferred), with technical and early-career recruiting experience"
+},
+{
+  "title": "Engineer/ Sr. Engineer Projects",
+  "company": "Aditya Birla Group",
+  "skills_required": [
+    "Core engineering principles and technical drawings interpretation",
+    "Process Safety Management practices",
+    "Safety regulations and risk assessment methodologies",
+    "Problem-solving and solution development",
+    "End-to-end project management",
+    "Compliance with statutory and regulatory standards",
+    "Focus on safety, quality, and environmental norms",
+    "Process optimization and efficiency improvement"
+  ],
+  "sector": "Executive Offices",
+  "location": "Gujarat, India",
+  "education_required": "Not specified",
+  "applyLink": "https://www.adityabirla.com/careers",
+  "postDate": "2025-09-16",
+  "experience_required": "Experience in managing engineering projects with safety, quality, and budget adherence"
+},
+{
+  "title": "Manager",
+  "company": "Varun Beverages Limited",
+  "skills_required": [
+    "Supply chain management",
+    "Dispatch operations",
+    "Inventory management (FIFO, zero expiry, fill rate)",
+    "Safety norms implementation",
+    "MIS and data reporting",
+    "Dashboard publishing",
+    "Vendor and transport coordination",
+    "Strong communication skills",
+    "Proficiency in Microsoft Excel",
+    "Workforce management (organized & unorganized)"
+  ],
+  "sector": "Food and Beverage Services",
+  "location": "Buxar, Bihar, India",
+  "education_required": "Any Graduation (Post Graduation preferred)",
+  "applyLink": "https://www.varunbeverages.com/careers",
+  "postDate": "2025-09-17",
+  "experience_required": "10-15 years in supply chain (5 years in dispatch operations)"
+},
+{
+  "title": "Customer Service Advisor (International)",
+  "company": "Capgemini",
+  "skills_required": [
+    "Outbound calling (US clients)",
+    "Customer query resolution",
+    "Objection handling and escalation",
+    "CRM tools and call centre software",
+    "Verbal communication and interpersonal skills",
+    "Collaboration with team leads and quality analysts",
+    "Compliance with US calling regulations",
+    "Goal orientation and problem solving",
+    "Adaptability to night shifts/US time zones",
+    "Knowledge of international culture and customer behaviour"
+  ],
+  "sector": "IT Services and IT Consulting",
+  "location": "Greater Kolkata Area",
+  "education_required": "Bachelors degree or equivalent",
+  "applyLink": "https://www.capgemini.com/careers",
+  "postDate": "2025-09-16",
+  "experience_required": "1-2 years of outbound calling experience, preferably with US clients"
+},
+{
+  "title": "Company Secretary",
+  "company": "Baidyanath",
+  "skills_required": [
+    "Drafting board resolutions and authorizations",
+    "Filing annual returns (MCA V2 & V3 portal)",
+    "Dematerialization of securities",
+    "Loan and investment documentation liaison",
+    "Monitoring CSR activities",
+    "Statutory registers preparation",
+    "Board and AGM minutes preparation",
+    "RBI compliances (NBFC)",
+    "Notice and agenda preparation for meetings",
+    "Bank liaison for accounts, KYC, and online banking",
+    "Directors KYC, PAN, Aadhar, Passport applications",
+    "Secretarial compliance (MSME, PAS, DIR-12, MGT-14, CRA-4, CHG, BEN forms)",
+    "Handling buy-back, private placement, rights issue",
+    "AOA and MOA alterations",
+    "Shareholding and transfer details maintenance",
+    "Auditor payments and certification documentation",
+    "ROC notice reply preparation",
+    "Visiting ROC, banks, consultants as required"
+  ],
+  "sector": "Retail Health, Personal Care Products, and Pharmaceutical Manufacturing",
+  "location": "Kolkata, West Bengal, India",
+  "education_required": "Qualified Company Secretary",
+  "applyLink": "https://www.baidyanath.com/careers",
+  "postDate": "2025-09-17",
+  "experience_required": "Entry-level role; prior experience in company secretarial work preferred",
+  "salary": "CTC ~6 LPA"
+},
+{
+  "title": "Manager",
+  "company": "KPMG India",
+  "skills_required": [
+    "Sales and business development",
+    "Account hunting and farming",
+    "Lead generation and closure",
+    "Stakeholder management",
+    "Global captive business expertise",
+    "Technology awareness (major platforms and OEM offerings)",
+    "Experience with multiple engagement models",
+    "Target-driven mindset",
+    "Self-driven and proactive work approach",
+    "Team coordination across practices"
+  ],
+  "sector": "IT Services, IT Consulting, and IT System Data Services",
+  "location": "Gurugram, Haryana, India",
+  "education_required": "BE / B.Tech / ME / M.Tech / MBA",
+  "applyLink": "mailto:shivani3@kpmg.com",
+  "postDate": "2025-09-16",
+  "experience_required": "Proven experience in sales with focus on global captive clients",
+  "salary": "Not disclosed"
 }
 
 ]
