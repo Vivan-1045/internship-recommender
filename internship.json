@@ -397,5 +397,60 @@
   "education_required": "Bachelor's degree (completed or in progress) in relevant field",
   "applyLink": "https://internshala.com/internship/detail/generative-ai-video-editor-internship-in-noida-at-prolegion-private-limited1758083206",
  
-}
+};
+  [
+  {
+    "title": "Frontend Web Development Intern",
+    "company": "Not Specified",
+    "skills_required": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React.js",
+      "Vue.js",
+      "Responsive Design",
+      "UI/UX Implementation",
+      "API Integration",
+      "Debugging",
+      "Code Optimization"
+    ],
+    "sector": "Web Development / Technology",
+    "location": "Work From Home",
+    "education_required": "Engineering Students, Undergraduate, Postgraduate",
+    "stipend": "25,000 /Month",
+    "duration": "3 months",
+    "application_deadline": "02 Oct 2025, 07:39 AM IST",
+    "working_days": "5 Days",
+    "internship_type": "Full Time",
+    "perks": [
+      "Job Offer",
+      "Certificate of Completion",
+      "Letter of Recommendation"
+    ],
+    "applyLink": "Not Provided"
+  },
+  {
+    "title": "Generative AI Video Editor Intern",
+    "company": "Prolegion Private Limited",
+    "skills_required": [
+      "Adobe Premiere Pro",
+      "DaVinci Resolve",
+      "Generative AI Development",
+      "Video Editing",
+      "AI Tools (Adobe Firefly, HeyGen)",
+      "Storytelling",
+      "Prompt Engineering"
+    ],
+    "sector": "SaaS/Technology",
+    "location": "Noida",
+    "education_required": "Bachelor's degree (completed or in progress) in relevant field",
+    "stipend": "Not Specified",
+    "duration": "Not Specified",
+    "application_deadline": "Not Specified",
+    "working_days": "Not Specified",
+    "internship_type": "Not Specified",
+    "perks": [],
+    "applyLink": "https://internshala.com/internship/detail/generative-ai-video-editor-internship-in-noida-at-prolegion-private-limited1758083206"
+  }
 ]
+
