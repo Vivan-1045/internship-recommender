@@ -442,7 +442,7 @@
   "education_required": "Pursuing Computer Science, IT or related fields",
   "applyLink": "https://internshala.com/internship/detail/aws-devops-engineer-internship-in-bangalore-at-anshumat-foundation1757308222",
   "postDate": "2025-09-07"
-},
+  },
 {
   "company": {
     "name": "PreludeSys",
@@ -820,6 +820,78 @@
   "postDate": "2025-09-16",
   "experience_required": "Proven experience in sales with focus on global captive clients",
   "salary": "Not disclosed"
+},
+  {
+  "title": "Engineer - Sales and Marketing (Biotechnology)",
+  "company": "BPG Renewables",
+  "skills_required": [
+    "Engineering Drawing", "Marketing Strategies","CRM Platforms", "Market Research",
+    "Sales Strategies","Client Relationship Management",
+    "Technical Guidance",
+    "Data Analytics"
+  ],
+  "sector": "Biotechnology/Renewable Energy",
+  "location": "Bangalore",
+  "education_required": "Final year students or completed course in relevant field",
+  "applyLink": "https://internshala.com/internships/biotech-internship/",
+  "postDate": "2025-08-29"
+},
+  {
+  "title": "Researcher (Environmental Science/Biotechnology)",
+  "company": "Nan Kum",
+  "skills_required": [
+    "Biology",
+    "Content Writing",
+    "Research and Analytics",
+    "Phytoremediation",
+    "Scientific Documentation",
+    "Environmental Science"
+  ],
+  "sector": "Environmental Science/Biotechnology",
+  "location": "Work from home",
+  "education_required": "Relevant background in Environmental Science or Biotechnology",
+  "applyLink": "https://internshala.com/internship/detail/work-from-home-researcher-environmental-science-biotechnology-internship-at-nan-kum1757657700"
+},
+{
+  "title": "Digital Marketing Intern",
+  "company": "EcoVibes Green India Private Limited",
+  "skills_required": ["Adobe Photoshop", "Canva", "Instagram Marketing", "Microsoft 365", "Web Development"],
+  "sector": "Digital Marketing",
+  "location": "Ahmedabad, Surat, Vadodara",
+  "education_required": "Not specified",
+  "applyLink": "https://internshala.com/internship/detail/digital-marketing-internship-at-ecovibes-green-india-private-limited-2025",
+  "postDate": "2025-09-16"
+},
+{
+  "title": "Inside Sales Intern",
+  "company": "ReelOn Technologies Pvt. Ltd",
+  "skills_required": ["English Proficiency (Spoken)", "Hindi Proficiency (Spoken)", "Kannada Proficiency (Spoken)"],
+  "sector": "Sales & Entertainment Industry",
+  "location": "Hyderabad",
+  "education_required": "No formal degree required (basic education is sufficient)",
+  "applyLink": "https://internshala.com/internship/detail/inside-sales-internship-at-reelon-technologies-pvt-ltd-2025",
+  "postDate": "2025-09-18"
+},
+{
+  "title": "Human Resources (HR) Intern",
+  "company": "FiftySixShots Beverages Private Limited",
+  "skills_required": ["Effective Communication", "English Proficiency (Spoken)", "Interpersonal Skills", "Kannada Proficiency (Spoken)", "MS-Office", "MS-Word"],
+  "sector": "Human Resources",
+  "location": "Bangalore",
+  "education_required": "Not specified",
+  "applyLink": "https://internshala.com/internship/detail/human-resources-hr-internship-at-fiftysixshots-beverages-private-limited-2025",
+  "postDate": "2025-09-18"
+},
+{
+  "title": "Video Editing/Making Intern",
+  "company": "Auora Studios Private Limited",
+  "skills_required": ["Adobe Premiere Pro", "Canva"],
+  "sector": "Video Editing & Media",
+  "location": "Pune",
+  "education_required": "Not specified",
+  "applyLink": "https://internshala.com/internship/detail/video-editing-making-internship-at-auora-studios-private-limited-2025",
+  "postDate": "2025-09-17"
 }
+
 
 ]
