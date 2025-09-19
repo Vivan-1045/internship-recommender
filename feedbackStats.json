@@ -2,8 +2,8 @@
   "intern-004": {
     "helpful": 2,
     "not_helpful": 0,
-    "applied": 0,
-    "total": 2,
+    "applied": 1,
+    "total": 3,
     "scoreBoost": 10
   },
   "intern-001": {
@@ -14,9 +14,16 @@
     "scoreBoost": 10
   },
   "intern-003": {
-    "helpful": 1,
+    "helpful": 6,
     "not_helpful": 0,
     "applied": 0,
+    "total": 6,
+    "scoreBoost": 10
+  },
+  "intern-002": {
+    "helpful": 0,
+    "not_helpful": 0,
+    "applied": 1,
     "total": 1,
     "scoreBoost": 10
   }

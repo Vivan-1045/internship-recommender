@@ -1,88 +1,153 @@
 :root {
   --accent: #2e7d32;
+  --accent-dark: #1b5e20;
   --muted: #666;
   --card-bg: #fff;
   --bg: #f6f8fa;
 }
+
+
 * {
   box-sizing: border-box;
 }
+
 body {
-  font-family: system-ui, Segoe UI, Roboto, Arial;
+  font-family: 'Times New Roman', Times, serif;
   margin: 0;
   background: var(--bg);
   color: #111;
 }
+
 .container {
   max-width: 760px;
-  margin: 18px auto;
-  padding: 12px;
+  margin: 4px auto;   /* was 8px auto */
+  padding: 8px;       /* reduced padding */
 }
+
 h1 {
-  font-size: 20px;
+  font-size: 24px;        /* slightly smaller */
   text-align: center;
-  margin-bottom: 12px;
+  margin: 6px 0 10px;     /* very compact */
+  font-weight: 600;
+  color: #222;
 }
+
 .card {
   background: var(--card-bg);
-  padding: 12px;
+  padding: 8px;           /* was 16px */
   border-radius: 10px;
-  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.06);
-  margin-bottom: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  margin-bottom: 8px;     /* tighter gap */
 }
-label {
-  display: block;
-  margin-top: 8px;
-  font-size: 13px;
-  color: var(--muted);
+
+
+.card:hover {
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+  transform: translateY(-2px);
 }
+
+.form-label {
+  display: flex;
+  align-items: center;
+  font-size: 17px;   /* Bigger label text */
+  font-weight: 600;
+  margin-top: 16px;
+  margin-bottom: 8px;
+  color: #222;
+}
+
+.form-label .icon {
+  width: 28px;   /* Bigger icons */
+  height: 28px;
+  margin-right: 10px;
+  opacity: 0.9;
+}
+
 input,
 select {
   width: 100%;
-  padding: 8px;
+  padding: 12px 14px;   /* Bigger input fields */
   margin-top: 6px;
-  border-radius: 6px;
-  border: 1px solid #ddd;
-}
-.btn {
-  display: block;
-  width: 100%;
-  padding: 10px;
-  margin-top: 12px;
-  background: var(--accent);
-  color: #fff;
-  border: none;
   border-radius: 8px;
-  font-weight: 600;
+  border: 1px solid #ddd;
+  font-size: 15px;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
 }
+
+input:focus,
+select:focus {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px rgba(46, 125, 50, 0.2);
+  outline: none;
+}
+
+input:hover,
+select:hover {
+  border-color: #bbb;
+}
+
+.btn {
+    display: block;
+    width: 40%;  /* Smaller width */
+    padding: 10px;  /* Reduced padding */
+    margin: 20px auto;  /* Centers the button and adds some space around it */
+    background: var(--accent);
+    color: #fff;
+    border: none;
+    border-radius: 8px;  /* Slightly smaller radius */
+    font-size: 14px;  /* Smaller font size */
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s ease, box-shadow 0.3s ease, transform 0.2s ease;
+}
+
+.btn:hover {
+    background: var(--accent-dark);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    transform: translateY(-2px);
+}
+
 #results {
-  margin-top: 12px;
+  margin-top: 16px;
 }
+
 .job-card {
   background: #fff;
-  padding: 12px;
+  padding: 14px;
   border-radius: 10px;
-  margin-bottom: 10px;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
+  margin-bottom: 12px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+  transition: box-shadow 0.25s ease, transform 0.25s ease;
 }
+
+.job-card:hover {
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.14);
+  transform: translateY(-2px);
+}
+
 .job-row {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 .job-title {
   font-weight: 700;
+  font-size: 16px;
 }
+
 .meta {
   font-size: 13px;
   color: var(--muted);
   margin-top: 6px;
 }
+
 .breakdown {
   margin-top: 8px;
   font-size: 13px;
   color: #333;
 }
+
 .small {
   font-size: 12px;
   color: var(--muted);
@@ -91,21 +156,33 @@ select {
 .tagify {
   width: 100%;
   border: 1px solid #ccc;
-  border-radius: 4px;
-  padding: 8px 8px;
+  border-radius: 6px;
+  padding: 8px 10px;
   font-size: 14px;
   font-weight: 500;
-  margin-top: 2px;
+  margin-top: 4px;
   box-sizing: border-box;
   background-color: white;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.tagify:hover {
+  border-color: #bbb;
+}
+
+.tagify:focus-within {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px rgba(46, 125, 50, 0.2);
 }
 
 .tagify__input {
   padding: 0 !important; 
   margin: 0;
 }
+
 @media (min-width: 700px) {
   .container {
-    padding: 20px;
+    padding: 24px;
   }
 }
+  

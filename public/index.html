@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -10,25 +11,38 @@
 </head>
 <body>
   <main class="container">
-    <h1>PM Internship Recommender</h1>
+    <h1 class="title"> PM Internship Recommender</h1>
 
-    <form id="profileForm" class="card">
-      <label>Skills (comma-separated)</label>
-      <input id="skillsInput" placeholder="Add skills..." required="true" />
+    <form id="profileForm" class="card form-card">
 
-      <label>Sector</label>
-      <input list="sectorOptions" id="sectorSelect" placeholder="Any sector"  />
+      <label class="form-label">
+        <img src="./icon/logical-thinking_9192465.png" alt="Skills Icon" class="icon">
+        <span>Skills</span>
+      </label>
+      <input id="skillsInput" placeholder="e.g. Python, Machine Learning" required />
+
+      <label class="form-label">
+        <img src="./icon/sector.png" alt="Sector Icon" class="icon">
+        <span>Sector</span>
+      </label>
+      <input list="sectorOptions" id="sectorSelect" placeholder="Any sector" />
       <datalist id="sectorOptions"></datalist>
 
-      <label>Location</label>
+      <label class="form-label">
+        <img src="./icon/location.png" alt="Location Icon" class="icon">
+        <span>Location</span>
+      </label>
       <input list="locationOptions" id="locationSelect" placeholder="Any location" />
       <datalist id="locationOptions"></datalist>
 
-      <label>Education</label>
-      <input list="educationOptions" id="educationSelect" placeholder="Any education level" required="true" />
+      <label class="form-label">
+        <img src="./icon/education-cap.png" alt="Education Icon" class="icon">
+        <span>Education</span>
+      </label>
+      <input list="educationOptions" id="educationSelect" placeholder="Any education level" required />
       <datalist id="educationOptions"></datalist>
 
-      <button type="submit" class="btn">Find Best Internships</button>
+      <button type="submit" class="btn">✨ Find Best Internships</button>
     </form>
 
     <section id="results"></section>
@@ -37,4 +51,3 @@
   <script src="app.js"></script>
 </body>
 </html>
-

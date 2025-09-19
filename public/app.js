@@ -110,8 +110,8 @@ document.addEventListener("DOMContentLoaded", () => {
             <div style="margin-top:10px">
               <span class="small">Was this recommendation useful?</span>
               <div>
-                <button class="btn small-btn" onclick="sendFeedback('${job.id}', 'useful')">👍 Useful</button>
-                <button class="btn small-btn" onclick="sendFeedback('${job.id}', 'not_useful')">👎 Not Useful</button>
+                <button class="btn small-btn" onclick="sendFeedback('${job.id}', 'useful')"> <img src="./icon/like.png" width="20px" height="20px"/> </button>
+                <button class="btn small-btn" onclick="sendFeedback('${job.id}', 'not_useful')"> <img src="./icon/hand.png" width="20px" height="20px"/>  </button>
                 <button class="btn small-btn" onclick="sendFeedback('${job.id}', 'applied')">✅ I Applied</button>
               </div>
             </div>
