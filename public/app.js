@@ -7,73 +7,69 @@ document.addEventListener("DOMContentLoaded", () => {
   const skillsInput = document.getElementById("skillsInput");
 
   const tagify = new Tagify(skillsInput, {
-    whitelist: [],       
+    whitelist: [],
     dropdown: {
-      enabled: 1,        
-      maxItems: 20,      
+      enabled: 1,
+      maxItems: 20,
       classname: "tags-look",
       fuzzySearch: true,
-      position: 'all',
+      position: "all",
       caseSensitive: false,
-    }
+    },
   });
 
-  // Get references to <datalist> elements
   const sectorOptions = document.getElementById("sectorOptions");
   const locationOptions = document.getElementById("locationOptions");
   const educationOptions = document.getElementById("educationOptions");
 
   // Load meta options dynamically into datalists
   fetch("/meta")
-    .then(r => r.json())
-    .then(data => {
-      (data.sectors || []).forEach(s => {
+    .then((r) => r.json())
+    .then((data) => {
+      (data.sectors || []).forEach((s) => {
         const opt = document.createElement("option");
         opt.value = s;
         sectorOptions.appendChild(opt);
       });
 
-      (data.locations || []).forEach(l => {
+      (data.locations || []).forEach((l) => {
         const opt = document.createElement("option");
         opt.value = l;
         locationOptions.appendChild(opt);
       });
 
-      (data.educations || []).forEach(e => {
+      (data.educations || []).forEach((e) => {
         const opt = document.createElement("option");
         opt.value = e;
         educationOptions.appendChild(opt);
       });
-       
+
       if (data.skills && Array.isArray(data.skills)) {
         tagify.settings.whitelist = data.skills;
       }
-
     });
 
   // Handle form submit
-  form.addEventListener("submit", e => {
+  form.addEventListener("submit", (e) => {
     e.preventDefault();
     results.innerHTML = "<div class='card small'>Finding matches…</div>";
 
-    // const skillsRaw = skillsInput.value || "";
-    // const skills = skillsRaw.split(",").map(s => s.trim()).filter(Boolean);
-    const skills = tagify.value.map(tag => tag.value).filter(Boolean);
+    const skills = tagify.value.map((tag) => tag.value).filter(Boolean);
 
     const payload = {
       skills,
       sector: sectorSelect.value || "",
       location: locationSelect.value || "",
-      education: educationSelect.value || ""
+      education: educationSelect.value || "",
     };
 
     fetch("/recommend", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(payload)
+      body: JSON.stringify(payload),
     })
-      .then(r => r.json())
-      .then(data => {
+      .then((r) => r.json())
+      .then((data) => {
         results.innerHTML = "";
         const res = data.results || [];
 
@@ -82,7 +78,7 @@ document.addEventListener("DOMContentLoaded", () => {
           return;
         }
 
-        res.forEach(job => {
+        res.forEach((job) => {
           const div = document.createElement("div");
           div.className = "job-card";
 
@@ -110,14 +106,45 @@ document.addEventListener("DOMContentLoaded", () => {
             <div style="margin-top:10px">
               <button onclick="window.open('${job.applyLink}', '_blank')" class="btn">Apply Now</button>
             </div>
+
+            <div style="margin-top:10px">
+              <span class="small">Was this recommendation useful?</span>
+              <div>
+                <button class="btn small-btn" onclick="sendFeedback('${job.id}', 'useful')">👍 Useful</button>
+                <button class="btn small-btn" onclick="sendFeedback('${job.id}', 'not_useful')">👎 Not Useful</button>
+                <button class="btn small-btn" onclick="sendFeedback('${job.id}', 'applied')">✅ I Applied</button>
+              </div>
+            </div>
           `;
 
           results.appendChild(div);
         });
       })
-      .catch(err => {
+      .catch((err) => {
         console.error(err);
-        results.innerHTML = "<div class='card small'>Error getting recommendations.</div>";
+        results.innerHTML =
+          "<div class='card small'>Error getting recommendations.</div>";
       });
   });
 });
+
+//Feedback function
+function sendFeedback(internshipId, feedbackType) {
+  fetch("/feedback", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ internshipId, feedback: feedbackType }),
+  })
+    .then((r) => r.json())
+    .then((data) => {
+      if (data.ok) {
+        alert("Thanks for your feedback. it will help other users!");
+      } else {
+        alert("⚠️ Feedback failed to save.");
+      }
+    })
+    .catch((err) => {
+      console.error("Feedback error:", err);
+      alert("⚠️ Error sending feedback.");
+    });
+}

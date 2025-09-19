@@ -14,10 +14,10 @@
 
     <form id="profileForm" class="card">
       <label>Skills (comma-separated)</label>
-      <input id="skillsInput" placeholder="Add skills..." />
+      <input id="skillsInput" placeholder="Add skills..." required="true" />
 
       <label>Sector</label>
-      <input list="sectorOptions" id="sectorSelect" placeholder="Any sector" />
+      <input list="sectorOptions" id="sectorSelect" placeholder="Any sector"  />
       <datalist id="sectorOptions"></datalist>
 
       <label>Location</label>
@@ -25,7 +25,7 @@
       <datalist id="locationOptions"></datalist>
 
       <label>Education</label>
-      <input list="educationOptions" id="educationSelect" placeholder="Any education level" />
+      <input list="educationOptions" id="educationSelect" placeholder="Any education level" required="true" />
       <datalist id="educationOptions"></datalist>
 
       <button type="submit" class="btn">Find Best Internships</button>
