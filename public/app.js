@@ -82,38 +82,64 @@ document.addEventListener("DOMContentLoaded", () => {
           const div = document.createElement("div");
           div.className = "job-card";
 
+          const breakdown = job.breakdown || {};
+
           div.innerHTML = `
-            <div class="job-row">
-              <div>
-                <div class="job-title">${job.title} <span class="small">— ${job.company}</span></div>
+            <div class="job-header">
+              <div class="job-left">
+                <div class="job-title">${job.title} <span class="small">— ${
+                    job.company
+                  }</span></div>
                 <div class="meta">${job.location} • ${job.sector}</div>
-                <div class="small">Posted on: ${new Date(job.postDate).toLocaleDateString()}</div>
-                <div class="small"><b>Education Required:</b> ${job.education_required}</div>
+                <div class="small">Posted on: ${new Date(
+                  job.postDate
+                ).toLocaleDateString()}</div>
+                <div class="small"><b>Education Required:</b> ${
+                  job.education_required
+                }</div>
               </div>
-              <div style="text-align:right">
-                <div style="font-weight:700">${job.matchScore}%</div>
+
+              <div class="job-right">
+                <div class="match-score">${job.matchScore}%</div>
                 <div class="small">Match score</div>
+                <div class="breakdown">
+                  <div>Skills: ${breakdown.skillScore || 0} / 50</div>
+                  <div>Sector: ${breakdown.sectorScore || 0} / 20</div>
+                  <div>Location: ${breakdown.locationScore || 0} / 20</div>
+                  <div>Education: ${breakdown.educationScore || 0} / 10</div>
+                </div>
               </div>
             </div>
 
-            <div class="breakdown">
-              <div>Skills: ${job.breakdown.skillScore} / 50</div>
-              <div>Sector: ${job.breakdown.sectorScore} / 20</div>
-              <div>Location: ${job.breakdown.locationScore} / 20</div>
-              <div>Education: ${job.breakdown.educationScore} / 10</div>
-            </div>
-
-            <div style="margin-top:10px">
-              <button onclick="window.open('${job.applyLink}', '_blank')" class="btn">Apply Now</button>
-            </div>
-
-            <div style="margin-top:10px">
-              <span class="small">Was this recommendation useful?</span>
-              <div>
-                <button class="btn small-btn" onclick="sendFeedback('${job.id}', 'useful')"> <img src="./icon/like.png" width="20px" height="20px"/> </button>
-                <button class="btn small-btn" onclick="sendFeedback('${job.id}', 'not_useful')"> <img src="./icon/hand.png" width="20px" height="20px"/>  </button>
-                <button class="btn small-btn" onclick="sendFeedback('${job.id}', 'applied')">✅ I Applied</button>
+            <div class="job-footer">
+              <button onclick="window.open('${
+                job.applyLink
+              }', '_blank')" class="btn apply-btn">Apply Now</button>
+              
+              <div class="feedback" style="margin-top:10px; text-align:center;">
+                <span style="font-size:13px; display:block; margin-bottom:6px;">
+                  Was this recommendation useful?
+                </span>
+                <div class="feedback-buttons" style="display:flex; justify-content:center; gap:8px;">
+                  
+                  <button onclick="sendFeedback('${job.id}', 'useful')" 
+                          style="padding:6px 10px; font-size:13px; display:flex; align-items:center; justify-content:center; border:1px solid #ccc; border-radius:6px; background:#fff; cursor:pointer;">
+                    <img src="./icon/like.png" alt="Like" style="width:18px; height:18px; object-fit:contain;" />
+                  </button>
+                  
+                  <button onclick="sendFeedback('${job.id}', 'not_useful')" 
+                          style="padding:6px 10px; font-size:13px; display:flex; align-items:center; justify-content:center; border:1px solid #ccc; border-radius:6px; background:#fff; cursor:pointer;">
+                    <img src="./icon/hand.png" alt="Dislike" style="width:18px; height:18px; object-fit:contain;" />
+                  </button>
+                  
+                  <button onclick="sendFeedback('${job.id}', 'applied')" 
+                          style="padding:6px 14px; font-size:13px; border:1px solid #ccc; border-radius:6px; background:#f5f5f5; cursor:pointer;">
+                    Applied
+                  </button>
+                  
+                </div>
               </div>
+
             </div>
           `;
 
@@ -148,3 +174,5 @@ function sendFeedback(internshipId, feedbackType) {
       alert("⚠️ Error sending feedback.");
     });
 }
+
+

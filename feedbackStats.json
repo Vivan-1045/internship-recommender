@@ -14,16 +14,23 @@
     "scoreBoost": 10
   },
   "intern-003": {
-    "helpful": 6,
+    "helpful": 7,
     "not_helpful": 0,
     "applied": 0,
-    "total": 6,
+    "total": 7,
     "scoreBoost": 10
   },
   "intern-002": {
     "helpful": 0,
     "not_helpful": 0,
     "applied": 1,
+    "total": 1,
+    "scoreBoost": 10
+  },
+  "intern-006": {
+    "helpful": 1,
+    "not_helpful": 0,
+    "applied": 0,
     "total": 1,
     "scoreBoost": 10
   }

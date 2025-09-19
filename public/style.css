@@ -1,11 +1,10 @@
 :root {
-  --accent: #2e7d32;
-  --accent-dark: #1b5e20;
+  --accent: #75ca79;
+  --accent-dark: #31a739;
   --muted: #666;
   --card-bg: #fff;
   --bg: #f6f8fa;
 }
-
 
 * {
   box-sizing: border-box;
@@ -20,26 +19,25 @@ body {
 
 .container {
   max-width: 760px;
-  margin: 4px auto;   /* was 8px auto */
-  padding: 8px;       /* reduced padding */
+  margin: 4px auto;
+  padding: 8px;
 }
 
 h1 {
-  font-size: 24px;        /* slightly smaller */
+  font-size: 24px;
   text-align: center;
-  margin: 6px 0 10px;     /* very compact */
+  margin: 6px 0 10px;
   font-weight: 600;
   color: #222;
 }
 
 .card {
   background: var(--card-bg);
-  padding: 8px;           /* was 16px */
+  padding: 8px;
   border-radius: 10px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
-  margin-bottom: 8px;     /* tighter gap */
+  margin-bottom: 8px;
 }
-
 
 .card:hover {
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
@@ -49,7 +47,7 @@ h1 {
 .form-label {
   display: flex;
   align-items: center;
-  font-size: 17px;   /* Bigger label text */
+  font-size: 17px;
   font-weight: 600;
   margin-top: 16px;
   margin-bottom: 8px;
@@ -57,7 +55,7 @@ h1 {
 }
 
 .form-label .icon {
-  width: 28px;   /* Bigger icons */
+  width: 28px;
   height: 28px;
   margin-right: 10px;
   opacity: 0.9;
@@ -66,7 +64,7 @@ h1 {
 input,
 select {
   width: 100%;
-  padding: 12px 14px;   /* Bigger input fields */
+  padding: 12px 14px;
   margin-top: 6px;
   border-radius: 8px;
   border: 1px solid #ddd;
@@ -86,49 +84,71 @@ select:hover {
   border-color: #bbb;
 }
 
+/* ---------- GENERAL BUTTON ---------- */
 .btn {
-    display: block;
-    width: 40%;  /* Smaller width */
-    padding: 10px;  /* Reduced padding */
-    margin: 20px auto;  /* Centers the button and adds some space around it */
-    background: var(--accent);
-    color: #fff;
-    border: none;
-    border-radius: 8px;  /* Slightly smaller radius */
-    font-size: 14px;  /* Smaller font size */
-    font-weight: 600;
-    cursor: pointer;
-    transition: background 0.3s ease, box-shadow 0.3s ease, transform 0.2s ease;
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 10px auto;
+  background: var(--accent);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s ease, box-shadow 0.3s ease, transform 0.2s ease;
+}
+
+form .btn {
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  width: fit-content; 
 }
 
 .btn:hover {
-    background: var(--accent-dark);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-    transform: translateY(-2px);
+  background: var(--accent-dark);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transform: translateY(-2px);
 }
 
 #results {
   margin-top: 16px;
 }
 
+/* ---------- JOB CARD STYLING ---------- */
 .job-card {
   background: #fff;
-  padding: 14px;
-  border-radius: 10px;
-  margin-bottom: 12px;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
-  transition: box-shadow 0.25s ease, transform 0.25s ease;
+  padding: 16px;
+  border-radius: 12px;
+  margin-bottom: 16px;
+  max-width: 400px;  
+  width: 100%;       
+  margin: 0 auto; 
+  margin-top: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .job-card:hover {
-  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.14);
   transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
 }
 
-.job-row {
+.job-header {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  gap: 1rem;
+}
+
+.job-left {
+  flex: 2;
+}
+
+.job-right {
+  flex: 1;
+  text-align: right;
+  font-size: 13px;
 }
 
 .job-title {
@@ -142,10 +162,71 @@ select:hover {
   margin-top: 6px;
 }
 
+.match-score {
+  font-size: 20px;
+  font-weight: bold;
+  color: var(--accent);
+  margin-bottom: 4px;
+}
+
 .breakdown {
-  margin-top: 8px;
-  font-size: 13px;
+  margin-top: 6px;
+  font-size: 12px;
   color: #333;
+  text-align: right;
+}
+
+.job-footer {
+  margin-top: 12px;
+  text-align: center;
+}
+
+/* ---------- APPLY BUTTON ---------- */
+.apply-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+  background: var(--accent);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.apply-btn:hover {
+  background: var(--accent-dark);
+  transform: translateY(-1px);
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* ---------- FEEDBACK ---------- */
+.feedback {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.feedback-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: 8px;
+}
+
+.feedback-buttons .btn {
+  width: auto;
+  padding: 6px 14px;
+  font-size: 13px;
+  border-radius: 6px;
+  background: var(--accent);
+  color: #fff;
+  font-weight: 500;
+}
+
+.feedback-buttons .btn:hover {
+  background: var(--accent-dark);
 }
 
 .small {
@@ -153,6 +234,7 @@ select:hover {
   color: var(--muted);
 }
 
+/* ---------- TAGIFY ---------- */
 .tagify {
   width: 100%;
   border: 1px solid #ccc;
@@ -180,9 +262,9 @@ select:hover {
   margin: 0;
 }
 
+/* ---------- RESPONSIVE ---------- */
 @media (min-width: 700px) {
   .container {
     padding: 24px;
   }
 }
-  
