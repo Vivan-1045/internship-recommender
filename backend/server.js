@@ -9,6 +9,8 @@ const FEEDBACK_FILE = path.join(__dirname, "feedback.json");
 const FEEDBACK_STATS_FILE = path.join(__dirname, "feedbackStats.json");
 const MAX_FEEDBACK_BOOST = 10;
 
+
+
 function loadAllFeedback() {
   try {
     const raw = fs.readFileSync(FEEDBACK_FILE, "utf8");
@@ -65,7 +67,7 @@ setInterval(() => {
 const app = express();
 app.use(cors());
 app.use(bodyParser.json());
-app.use(express.static(path.join(__dirname, "public")));
+app.use(express.static(path.join(__dirname, "../public")));
 
 //Replaced by real dataset currently its for MVP
 const internships = JSON.parse(
